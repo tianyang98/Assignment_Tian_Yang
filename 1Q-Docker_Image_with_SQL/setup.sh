@@ -10,7 +10,7 @@ docker build -t db-demo .
 
 echo "===== Run the container. ====="
 
-docker run -p 1433:1433 -d db-demo
+docker run -p 1433:1433 -d db-demo --name sql1 -h sql1
 
 #Then we can connect to the SQL Server with SQL Server Management Studio (SSMS).
 #Provide localhost as Server name. Choose SQL Server Authentication and provide sa user with password from Dockerfile.
