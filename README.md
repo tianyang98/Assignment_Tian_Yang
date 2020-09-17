@@ -38,3 +38,10 @@ To explain in detail,
 ## 2Q-Cloud_App_Archetecture
 
 ## 3Q-Data_Pipeline_with_Python
+
+
+
+### Reference: 
+ 1.https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash
+ 2.https://www.softwaredeveloper.blog/initialize-mssql-in-docker-container
+
