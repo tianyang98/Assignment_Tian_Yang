@@ -19,6 +19,7 @@ To explain in detail,
   * Download the Docker Image as `mcr.microsoft.com/mssql/server:2017-CU17-ubuntu`
   * Create DBScripits directory
   * Grant permissions for run-initialization script 
+    * sleep for 30 seconds while the database starts up.
     * it runs a sqlcmd that calls scripts to create the DB and the schema in the DB: 
      ```
      01-create-database.sql
