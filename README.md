@@ -66,7 +66,34 @@ With this configuration, requests are proxied by the HTTP(S) load-balancer to se
 
 ## 3Q-Data_Pipeline_with_Python
 
+# CML Input
+* i.	A folder name – Mandatory - The name of the folder to work upon
+```
+$ python run.py -p /Users/yangtian/Desktop/assignment_TianYang/3Q-Data_Pipeline_with_Python/test
+Current path:  /Users/yangtian/Desktop/assignment_TianYang/3Q-Data_Pipeline_with_Python/test
+```
 
+* ii.	Script Order – Optional - Ascending / Descending – The list of files order to work upon. Default Behavior – Ascending
+```
+$ python run.py -p /Users/yangtian/Desktop/assignment_TianYang/3Q-Data_Pipeline_with_Python/test
+Current path:  /Users/yangtian/Desktop/assignment_TianYang/3Q-Data_Pipeline_with_Python/test -o d
+```
+* iii.	File name – Optional – The exact file name to run. Default Behavior – All the files
+```
+$ python run.py -p /Users/yangtian/Desktop/assignment_TianYang/3Q-Data_Pipeline_with_Python/test
+Current path:  /Users/yangtian/Desktop/assignment_TianYang/3Q-Data_Pipeline_with_Python/test -f 1.py,3.py
+```
+* iv.	Outfile – Optional – Log the output to the mentioned file name. Default behavior – Console
+```
+$ python run.py -p /Users/yangtian/Desktop/assignment_TianYang/3Q-Data_Pipeline_with_Python/test
+Current path:  /Users/yangtian/Desktop/assignment_TianYang/3Q-Data_Pipeline_with_Python/test -O hi.txt
+```
+* v.	Help – Optional  - Display the help and usage information
+```
+$ python run.py -h
+```
+Output example:
+![output](https://github.com/tianyang98/Assignment_Tian_Yang/blob/master/output.png)
 
 ### Reference: 
  1. https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash
@@ -76,5 +103,7 @@ With this configuration, requests are proxied by the HTTP(S) load-balancer to se
  5. https://victorops.com/blog/cdns-vs-load-balancers-for-uptime-and-user-experience
  6. https://dev.to/nektro/how-do-you-update-backend-web-services-without-downtime-2k7f
  7. https://cloud.google.com/blog/products/networking/enabling-hybrid-deployments-with-cloud-cdn-and-load-balancing
+ 8. https://docs.python.org/2/library/stringio.html#module-StringIO
+ 9. https://docs.python.org/3/library/parser.html
  
 
